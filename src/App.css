@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.fab{
+  width: 70px !important;
+  height: 70px !important;
+  margin: 0px !important;
+  top: auto;
+  right: 20px;
+  bottom: 20px;
+  left: auto;
+  position: fixed !important;
+  z-index: 9999 !important;
+}
+
+.card-footer{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
