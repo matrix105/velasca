@@ -1,3 +1,6 @@
+:root{
+  --primary:#185674;
+}
 .App {
   text-align: center;
 }
@@ -37,7 +40,7 @@
   }
 }
 
-.fab{
+.fab {
   width: 70px !important;
   height: 70px !important;
   margin: 0px !important;
@@ -49,8 +52,61 @@
   z-index: 9999 !important;
 }
 
-.card-footer{
+.card-footer {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid lightblue;
+  padding-bottom: 20px;
+}
+.modal {
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.addToCart {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: whitesmoke;
+  background: #185674;
+  font-weight: 700;
+  height: 30px;
+  font-size: large;
+}
+.addToCart:hover {
+  background: whitesmoke;
+  color: #185674;
+  cursor: pointer;
+}
+
+.MuiCard-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price {
+  color: #185674;
+  font-weight: 700;
+  font-size: 15pt;
 }
